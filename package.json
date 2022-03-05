@@ -1,0 +1,27 @@
+{
+  "name": "bug-tracker-application",
+  "version": "1.0.0",
+  "description": "Bug Tracker Application Using Node.js And MongoDB for Edureka Node.js Certification Training Module 6: Building Node.js Applications using ES6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbanerjee/nodeJS-jan2022-assignment5.git"
+  },
+  "author": "Chunilal Banerjee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cbanerjee/nodeJS-jan2022-assignment5/issues"
+  },
+  "homepage": "https://github.com/cbanerjee/nodeJS-jan2022-assignment5#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "jquery": "^3.6.0",
+    "mongodb": "^4.4.1",
+    "path": "^0.12.7"
+  }
+}
