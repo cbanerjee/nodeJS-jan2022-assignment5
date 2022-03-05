@@ -42,7 +42,7 @@ server.get("/", (req, res) => {
                 data[i]['slaDetails'] = new Date(deadline).toLocaleDateString();
                 data[i]['status'] = status;
             }
-            res.render("addbug", { data: data, date: date_ });
+            res.render("addbug", { data: data });
         }
     })
 })
